@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical" android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:background="#263238">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Best Places"
+                            android:gravity="center"
+                            android:textSize="30dp"
+                            android:textColor="#00e676"
+                            android:layout_gravity="center"
+                            android:fontFamily="serif-monospace"
+                            />
+                        <GridView
+                            android:id="@+id/grid_v2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:numColumns="1"
+                            android:layout_margin="20dp"
+                            />
+                </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>

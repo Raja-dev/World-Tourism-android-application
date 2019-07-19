@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.worldfoodblogs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="World Tourism"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Brazil_Details"></activity>
+        <activity android:name=".Egypt_Details"></activity>
+        <activity android:name=".China_Details"></activity>
+        <activity android:name=".US_Details"></activity>
+        <activity android:name=".UK_Details"></activity>
+        <activity android:name=".Italy_Details"></activity>
+        <activity android:name=".France_Details"></activity>
+        <activity android:name=".India_Details"></activity>
+        <activity android:name=".Brazil"></activity>
+        <activity android:name=".Egypt"></activity>
+        <activity android:name=".China"></activity>
+        <activity android:name=".US"></activity>
+        <activity android:name=".UK"></activity>
+        <activity android:name=".Italy"></activity>
+        <activity android:name=".France"></activity>
+        <activity android:name=".India"></activity>
+        <activity android:name=".Content"></activity>
+        <activity android:name=".Registration"></activity>
+        <activity android:name=".LogIn"></activity>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <!-- all the permissins stay here, outside the application tag-->
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
